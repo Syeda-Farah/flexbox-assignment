@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px 0px;
+    font-weight: 800;
+
+}
+
+main{
+  
+}
+.item{
+   
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+ 
+}
+.items{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 100px;
+    text-align: center; 
+    background-color: rgb(69, 61, 77);
+    height: 50vh;
+    align-items: center;
+   
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px 0px;
+    font-weight: 800;  
+}
